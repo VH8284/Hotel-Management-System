@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                margin: 0;
+                background: white;
+            }
+            h2{
+                text-align: center;
+            }
+            .service .main-service{
+                display: flex;
+                justify-content: center;
+            }
+            .service .service-box{
+                background-color: orchid;
+                margin-top: 8px;
+                text-align: center;
+                width: 200px;
+                padding: 30px 10px 0;
+            }
+            .service .img{
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                padding: 40px;
+            }
+            .service .img img{
+                width: 100%;
+                height: 200px;
+            }
+            @media(max-width : 600px){
+                .service .img{
+                    display: grid;
+                    grid-template-columns: repeat(1,1fr);
+                    padding: 40px;
+                }
+                .service .img img{
+                    height: 200px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="service">
+            <h2>Facilities</h2>
+            <div class="main-service">
+                <div class="service-box">
+                    <i class="ion-ios-person"></i>
+                    <h4>Tour and Excursions</h4>
+                    <hr>
+                    <p>Vehicles are available for tour and travels</p>
+                </div>
+                <div class="service-box">
+                    <i class="ion-ios-person"></i>
+                    <h4>Free Wireless Internet Access</h4>
+                    <hr>
+                    <p>Free Wireless Internet Access are available in room and restro area</p>
+                </div>
+                <div class="service-box">
+                    <i class="ion-ios-person"></i>
+                    <h4>Baby Sitting on Request</h4>
+                    <hr>
+                    <p>Baby Sitting on Request</p>
+                </div>
+                <div class="service-box">
+                    <i class="ion-ios-person"></i>
+                    <h4>Laundary Service</h4>
+                    <hr>
+                    <p>Free Laundary Service available for a customer who book VIP Room</p>
+                </div>
+                <div class="service-box">
+                    <i class="ion-ios-person"></i>
+                    <h4>Food Service</h4>
+                    <hr>
+                    <p>Free Food Services are available in room </p>
+                </div>
+                <div class="service-box">
+                    <i class="ion-ios-person"></i>
+                    <h4>Gym & Spa</h4>
+                    <hr>
+                    <p>Gym and Spa services available in resort </p>
+                </div>
+                
+            </div>
+            <div class="service">
+                <div class="img">
+                    <img src="images/img19.jpg">
+                    <img src="images/img17.png">
+                    <img src="images/img15.jpg">
+                    <img src="images/img14.jpg">
+                    <img src="images/img24.jpg">
+                    <img src="images/img21.jpg">
+                    <img src="images/img22.webp">
+                    <img src="images/img23.jpg">
+                </div>
+            </div>
+    </body>
+</html>
